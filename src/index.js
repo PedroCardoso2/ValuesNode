@@ -11,7 +11,7 @@ app.get('/sobre', (req, res) => {
 });
 
 app.get('/contato', (req, res) => {
-  res.send('<h1>Conato</h1>');
+  res.send('<h1>Contato</h1>');
 });
 
 app.listen(3000, () => {
